@@ -1,0 +1,32 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Chenyx
+ * @Date: 2022-10-14 22:42:53
+ * @LastEditors: Do not edit
+ * @LastEditTime: 2023-05-11 13:49:03
+ */
+@import "./base.css";
+@import "./flex.scss";
+@import "./layout.scss";
+
+:root {
+  --warning: #e6a23c;
+  --success: #67c23a;
+  --danger: #f56c6c;
+  --bg-primary: #0d1117;
+  --bg-inset: #090c10;
+  --bg-navbar: #161b22;
+  --text-primary: #c9d1d9;
+  --text-second: #8b949e;
+  --text-navbar: #f0f6fc;
+  --text-link: #56a6ff;
+  --text-link-hover: #58a6ff;
+  --button-primary: #238636;
+  --button-primary-border: #2ea043;
+  --button-primary-hover: #2ea043;
+  --main-height: calc(100vh - 160px);
+  --border: 1px solid #30363d;
+  --border-color: #30363d;
+  --sk-theme-color: var(--border-color);
+}

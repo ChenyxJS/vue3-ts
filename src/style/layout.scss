@@ -1,0 +1,42 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.top-layout {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 62px;
+  min-height: 62px;
+  z-index: 999;
+}
+
+.container-layout {
+  display: flex;
+  flex: 1;
+  color: var(--text-navbar);
+  height: calc(100% - 62px);
+  padding-top: 62px;
+  .slider-layout {
+    width: 250px;
+    min-width: 250px;
+    min-height: var(--main-height);
+    background: var(--bg-primary);
+    padding: 0px 32px;
+  }
+  .content-layout {
+    flex: 1;
+    background: var(--bg-inset);
+    overflow: hidden scroll;
+  }
+}
+
+.footer-layout {
+  width: 100%;
+  height: 60px;
+}
+

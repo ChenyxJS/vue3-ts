@@ -1,0 +1,38 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: Chenyx
+ * @Date: 2022-10-14 22:43:05
+ * @LastEditors: Do not edit
+ * @LastEditTime: 2023-03-10 16:57:43
+ */
+.flex{
+    display: flex; 
+    align-items: center;   
+
+    &-cc{
+        align-items: center;
+        justify-content: center;
+    }
+    &-cs{
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &-ce{
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &-sa{
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-warp{
+    flex-wrap: wrap;
+}
+
+
+
