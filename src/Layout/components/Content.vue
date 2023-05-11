@@ -8,11 +8,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <router-view v-slot="{ Component }">
-      <keep-alive :exclude="[]">
-        <component :is="Component" ></component>
-      </keep-alive>
-  </router-view>
+    <router-view v-slot="{ Component }">
+        <keep-alive :exclude="[]">
+            <component :is="Component"></component>
+        </keep-alive>
+    </router-view>
 </template>
-
-<style></style>

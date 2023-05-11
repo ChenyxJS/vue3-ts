@@ -10,9 +10,3 @@
 <template>
     <h1>Hello, Wellcome to Vue3 TypeScript Template test</h1>
 </template>
-
-<style lang="scss" scoped>
-h1 {
-    margin: auto;
-}
-</style>
